@@ -1,5 +1,3 @@
----
-
 # **Documentação do Script de Análise de Sentimento**
 
 ## **Descrição Geral**
