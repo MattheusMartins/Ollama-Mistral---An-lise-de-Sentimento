@@ -15,7 +15,9 @@ Certifique-se de que as seguintes bibliotecas estão instaladas:
 ```bash
 pip install pandas ollama
 ```
-
+```bash
+ollama run mistral
+```
 ## **Como o Script Funciona**
 
 1. **Leitura do Arquivo Excel:**
