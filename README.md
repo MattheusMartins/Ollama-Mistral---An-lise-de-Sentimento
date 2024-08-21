@@ -1,5 +1,8 @@
 # **Documentação do Script de Análise de Sentimento**
 
+![Descrição da Imagem](https://github-production-user-asset-6210df.s3.amazonaws.com/3325447/271034511-d6be0694-eb35-417b-8f08-47d3b6c2a171.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240821%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240821T222506Z&X-Amz-Expires=300&X-Amz-Signature=0b73df8576c3d8798c775049dc32c0e9167ee2932ac17f369e4ce863fd99bb8b&X-Amz-SignedHeaders=host&actor_id=89713193&key_id=0&repo_id=658928958)
+
+
 ## **Descrição Geral**
 Este script Python foi desenvolvido para realizar uma análise de sentimento em textos contidos em uma coluna específica de um arquivo Excel (`.xlsx`). O script utiliza o modelo de linguagem **Mistral** da **Ollama** para classificar os textos em "Positivo", "Neutro" ou "Negativo". O resultado da análise é salvo em uma nova coluna do mesmo arquivo, que é então exportado para um novo arquivo Excel.
 
