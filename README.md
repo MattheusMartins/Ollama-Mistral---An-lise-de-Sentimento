@@ -1,5 +1,3 @@
-Aqui está a documentação para o script Python que você utilizou com o modelo Mistral do Ollama:
-
 ---
 
 # **Documentação do Script de Análise de Sentimento**
