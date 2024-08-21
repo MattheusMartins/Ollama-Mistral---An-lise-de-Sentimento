@@ -52,6 +52,15 @@ ollama run mistral
 ## **Saída**
 - O script gera um novo arquivo Excel (`treino_com_sentimentos.xlsx`) contendo os dados originais e a coluna adicional "Sentimento", que indica o sentimento associado a cada texto na coluna "Resumo".
 
+## **Preview**
+| Nome_empresa         | Nome_Gc           | Resumo                                                                                                    | Sentimento |
+|----------------------|-------------------|-----------------------------------------------------------------------------------------------------------|------------|
+| NovaVerde Soluções    | Ana Clara Silva   | O suporte remoto é eficiente, mas o atendimento poderia ser mais rápido.                                   | Neutro     |
+| InovaTech Labs       | João Pedro Costa  | A qualidade dos servidores é excelente, e o suporte técnico é muito eficiente.                             | Positivo   |
+| LuminaCorp           | Beatriz Martins   | O backup automático funciona bem, mas a recuperação de dados é lenta.                                      | Neutro     |
+| Eclipse Dynamics     | Lucas Oliveira    | O atendimento presencial é ótimo e o suporte remoto é eficaz.                                              | Positivo   |
+| EcoVita Produtos     | Mariana Souza     | Os servidores têm desempenho consistente, mas o suporte técnico pode melhorar.                             | Neutro     |
+
 ## **Notas Adicionais**
 - Certifique-se de que o arquivo Excel (`treino.xlsx`) possui uma coluna "Resumo" antes de executar o script.
 - O modelo Mistral da Ollama pode ter restrições quanto ao número de requisições por minuto, então o script pode levar tempo para processar grandes volumes de dados.
